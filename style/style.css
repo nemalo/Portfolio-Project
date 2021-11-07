@@ -71,13 +71,13 @@ a:hover {
 /* HOMEPAGE */
 
 .hero-section {
-  padding-top: 20vw;
+  padding-top: 15vw;
   background-color: var(--cultured);
 }
 
 .hero-buttons {
   padding-top: 4em;
-  padding-bottom: 20vw;
+  padding-bottom: 15vw;
   background-color: var(--cultured);
 }
 
