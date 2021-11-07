@@ -46,8 +46,8 @@ a:hover {
 }
 
 .hero-section {
-  padding-top: 25vh;
-  padding-bottom: 25vh;
+  padding-top: 20vw;
+
   background-color: var(--cultured);
 }
 
@@ -61,10 +61,16 @@ a:hover {
 }
 
 .hero-buttons {
-  margin-top: 4em;
+  padding-top: 4em;
+  padding-bottom: 20vw;
+  background-color: var(--cultured);
 }
 
 @media (max-width: 900px) {
+  .hero-section {
+    padding-top: 30vw;
+    background-color: var(--cultured);
+  }
   .homepage-h1-heading {
     font-size: 4em;
   }
@@ -76,7 +82,9 @@ a:hover {
   }
 
   .hero-buttons {
-    margin-top: 3em;
+    padding-top: 3em;
+    padding-bottom: 30vw;
+    background-color: var(--cultured);
   }
 }
 
@@ -108,4 +116,8 @@ a:hover {
   color: white;
   border-radius: 5px;
   box-shadow: 2px 2px 10px rgba(29, 28, 28, 0.3);
+}
+
+.aboutme-homepage {
+  padding-top: 6em;
 }
