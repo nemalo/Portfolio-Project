@@ -37,27 +37,42 @@ p {
   color: var(--eerie-black);
 }
 
+p {
+  font-family: var(--default-font);
+  font-weight: 400;
+  font-size: 1.1em;
+}
+
 a {
   text-decoration: none;
+  font-family: var(--default-font);
+  font-size: 1.1em;
 }
 
 a:hover {
   text-decoration: none;
+  font-family: var(--default-font);
+  font-size: 1.1em;
 }
 
-.hero-section {
-  padding-top: 20vw;
-
-  background-color: var(--cultured);
-}
-
-.homepage-h1-heading {
+.heading-h1 {
   font-size: 5em;
 }
 
-.homepage-h2-subheading {
+.subheading-h2 {
   font-size: 2.5em;
   line-height: 55px;
+}
+
+.blue-highlight {
+  color: var(--silver-sand);
+}
+
+/* HOMEPAGE */
+
+.hero-section {
+  padding-top: 20vw;
+  background-color: var(--cultured);
 }
 
 .hero-buttons {
@@ -66,16 +81,20 @@ a:hover {
   background-color: var(--cultured);
 }
 
+.subtitle-align-end {
+  text-align: end;
+}
+
 @media (max-width: 900px) {
   .hero-section {
     padding-top: 30vw;
     background-color: var(--cultured);
   }
-  .homepage-h1-heading {
+  .heading-h1 {
     font-size: 4em;
   }
 
-  .homepage-h2-subheading {
+  .subheading-h2 {
     font-size: 2em;
     padding: 0 1em;
     line-height: 42px;
@@ -85,6 +104,11 @@ a:hover {
     padding-top: 3em;
     padding-bottom: 30vw;
     background-color: var(--cultured);
+  }
+
+  .subtitle-align-end {
+    text-align: center;
+    margin-bottom: 0.5em;
   }
 }
 
@@ -119,5 +143,8 @@ a:hover {
 }
 
 .aboutme-homepage {
-  padding-top: 6em;
+  padding-top: 13em;
+  padding-bottom: 13em;
 }
+
+/* END HOMEPAGE */
