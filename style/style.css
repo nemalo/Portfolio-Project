@@ -10,6 +10,7 @@ font-family: 'Noto Serif Display', serif;
   --default-font: "Montserrat", sans-serif;
   --cultured: #f1f1f1ff;
   --silver-sand: #b5c4c7ff;
+  --green-sheen: #6cb2b0;
   --cadet: #64797cff;
   --eerie-black: #1d1c1cff;
   --link-primary: #d48030ff;
@@ -105,9 +106,11 @@ a:hover {
     padding-bottom: 30vw;
     background-color: var(--cultured);
   }
+}
 
+@media (max-width: 480px) {
   .subtitle-align-end {
-    text-align: center;
+    text-align: start;
     margin-bottom: 0.5em;
   }
 }
@@ -120,7 +123,7 @@ a:hover {
 }
 
 .button-one:hover {
-  background-color: var(--cadet);
+  background-color: var(--link-hover);
   padding: 0.5em 1.5em;
   color: white;
   border-radius: 5px;
@@ -135,7 +138,7 @@ a:hover {
 }
 
 .button-two:hover {
-  background-color: var(--coffee);
+  background-color: var(--green-sheen);
   padding: 0.5em 1.5em;
   color: white;
   border-radius: 5px;
