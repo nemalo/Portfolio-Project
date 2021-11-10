@@ -13,8 +13,8 @@ font-family: 'Noto Serif Display', serif;
   --green-sheen: #6cb2b0;
   --cadet: #64797cff;
   --eerie-black: #1d1c1cff;
-  --link-primary: #d48030ff;
-  --link-hover: #9c5011ff;
+  --link-primary: #9c5011ff;
+  --link-hover: #d48030ff;
   --coffee: #774a31ff;
 }
 
@@ -69,11 +69,23 @@ a:hover {
   color: var(--silver-sand);
 }
 
+.fab {
+  color: var(--link-primary);
+}
+
+.fab:hover {
+  color: var(--link-hover);
+}
+
 /* HOMEPAGE */
 
 .hero-section {
   padding-top: 15vw;
   background-color: var(--cultured);
+}
+
+.hero-section-two {
+  padding-top: 15vw;
 }
 
 .hero-buttons {
@@ -148,6 +160,13 @@ a:hover {
 .aboutme-homepage {
   padding-top: 13em;
   padding-bottom: 13em;
+}
+
+.highlight-area {
+  background-color: var(--cultured);
+  margin-top: 4em;
+  padding: 2em;
+  text-align: center;
 }
 
 /* END HOMEPAGE */
