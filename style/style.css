@@ -105,8 +105,8 @@ a.heading2:hover {
   color: var(--link-hover);
 }
 
-.navbar-color {
-  background-color: var(--cultured);
+.navbar-light {
+  background-color: var(--cultured) !important;
 }
 
 .heading-h1 {
@@ -139,7 +139,7 @@ a.heading2:hover {
 }
 
 .hero-section-two {
-  padding-top: 10vw;
+  padding-top: 8vw;
 }
 
 .hero-buttons {
@@ -224,6 +224,7 @@ a.heading2:hover {
 .highlight-area {
   background-color: var(--cultured);
   margin-top: 4em;
+  margin-bottom: 5em;
   padding: 2em;
   text-align: center;
   border-top-right-radius: 3em;
