@@ -95,6 +95,20 @@ a.regular-font:hover {
   color: var(--link-hover);
 }
 
+a.footer-font {
+  text-decoration: none;
+  font-family: var(--default-font);
+  font-size: 0.9em;
+  color: var(--link-primary);
+}
+
+a.footer-font:hover {
+  text-decoration: none;
+  font-family: var(--default-font);
+  font-size: 0.9em;
+  color: var(--link-hover);
+}
+
 a.active {
   color: var(--link-hover) !important;
 }
