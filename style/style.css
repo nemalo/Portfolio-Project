@@ -44,6 +44,14 @@ p {
   font-size: 1.1em;
 }
 
+.footer-text {
+  font-family: var(--default-font);
+  font-weight: 400;
+  font-size: 0.8em;
+  text-align: center;
+  color: var(--coffee);
+}
+
 img {
   border-radius: 1em;
 }
@@ -131,7 +139,7 @@ a.heading2:hover {
   color: var(--link-hover);
 }
 
-/* HOMEPAGE */
+/* PAGE SECTIONS */
 
 .hero-section {
   padding-top: 15vw;
@@ -231,4 +239,12 @@ a.heading2:hover {
   border-bottom-left-radius: 3em;
 }
 
-/* END HOMEPAGE */
+.footer-line {
+  margin-top: 5em;
+  border-top: solid 2px var(--cultured);
+  text-align: center;
+}
+
+.footer-narrower {
+  padding: 0 25%;
+}
