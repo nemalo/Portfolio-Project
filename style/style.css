@@ -240,11 +240,17 @@ a.heading2:hover {
 }
 
 .footer-line {
-  margin-top: 5em;
+  margin-top: 8em;
   border-top: solid 2px var(--cultured);
   text-align: center;
 }
 
 .footer-narrower {
-  padding: 0 25%;
+  padding: 0 15vw;
+}
+
+@media (min-width: 1024px) {
+  .footer-narrower {
+    padding: 0 30vw;
+  }
 }
