@@ -60,6 +60,19 @@ a:hover {
   font-size: 1.1em;
 }
 
+a.navigation {
+  text-decoration: none;
+  font-family: var(--default-font);
+  font-size: 1em;
+}
+
+a.navigation:hover {
+  text-decoration: none;
+  font-family: var(--default-font);
+  font-size: 1em;
+  color: var(--link-hover) !important;
+}
+
 a.regular-font {
   text-decoration: none;
   font-family: var(--default-font);
@@ -72,6 +85,10 @@ a.regular-font:hover {
   font-family: var(--default-font);
   font-size: 1.1em;
   color: var(--link-hover);
+}
+
+a.active {
+  color: var(--link-hover) !important;
 }
 
 a.heading2 {
@@ -88,6 +105,10 @@ a.heading2:hover {
   color: var(--link-hover);
 }
 
+.navbar-color {
+  background-color: var(--cultured);
+}
+
 .heading-h1 {
   font-size: 5em;
 }
@@ -101,7 +122,8 @@ a.heading2:hover {
   color: var(--silver-sand);
 }
 
-.fab {
+.fab,
+.far {
   color: var(--link-primary);
 }
 
@@ -117,7 +139,7 @@ a.heading2:hover {
 }
 
 .hero-section-two {
-  padding-top: 15vw;
+  padding-top: 10vw;
 }
 
 .hero-buttons {
@@ -157,6 +179,11 @@ a.heading2:hover {
     text-align: start;
     margin-bottom: 0.5em;
   }
+}
+
+.narrower-columns {
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 .button-one {
