@@ -164,6 +164,20 @@ a.heading2:hover {
   }
 }
 
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: flex-end;
+    margin-right: 3em;
+  }
+
+  .navbar {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
 .navbar-toggler {
   margin-right: 2em;
   border: none;
@@ -256,7 +270,7 @@ a.heading2:hover {
 
 .aboutme-homepage {
   padding-top: 13em;
-  padding-bottom: 13em;
+  padding-bottom: 9em;
 }
 
 .highlight-area {
