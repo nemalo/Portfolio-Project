@@ -127,10 +127,6 @@ a.heading2:hover {
   color: var(--link-hover);
 }
 
-.navbar-light {
-  background-color: var(--cultured) !important;
-}
-
 .heading-h1 {
   font-size: 5em;
 }
@@ -162,6 +158,10 @@ a.heading2:hover {
   .margin-top-dropdown {
     margin-top: 2em;
   }
+
+  .logo {
+    margin-left: 3em !important;
+  }
 }
 
 @media (min-width: 992px) {
@@ -183,7 +183,34 @@ a.heading2:hover {
   border: none;
 }
 
-/* PAGE SECTIONS */
+.navbar-light {
+  background-color: var(--cultured) !important;
+}
+
+.logo {
+  margin-top: -3.5em !important;
+  width: 70px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.logo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.front-image-hover {
+  z-index: 9999;
+  transition: opacity 0.2s linear;
+}
+
+.logo:hover > .front-image-hover {
+  opacity: 0;
+}
+
+/* ----------------------------------- PAGE SECTIONS */
 
 .hero-section {
   padding-top: 15vw;
