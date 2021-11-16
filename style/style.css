@@ -265,6 +265,13 @@ a.heading2:hover {
   padding-right: 20%;
 }
 
+@media (max-width: 480px) {
+  .narrower-columns {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
 .button-one {
   background-color: var(--coffee);
   padding: 0.5em 1.5em;
