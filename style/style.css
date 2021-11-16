@@ -318,7 +318,7 @@ a.heading2:hover {
 }
 
 .footer-line {
-  margin-top: 8em;
+  margin-top: 10%;
   border-top: solid 2px var(--cultured);
   text-align: center;
 }
