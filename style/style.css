@@ -261,8 +261,8 @@ a.heading2:hover {
 }
 
 .narrower-columns {
-  padding-left: 25%;
-  padding-right: 25%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .button-one {
@@ -322,6 +322,6 @@ a.heading2:hover {
 
 @media (min-width: 1024px) {
   .footer-narrower {
-    padding: 0 30vw;
+    padding: 0 20vw;
   }
 }
